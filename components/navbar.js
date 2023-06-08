@@ -19,9 +19,9 @@ const Navbar = () => {
       <div className="container mx-auto px-6 py-3">
         <div className="flex items-center justify-between h-16">
           {/* brand */}
-          <div className="flex-shrink-0">
-            <Link href="/" className="text-white font-semibold text-xl tracking-tight p-2 border hover:border-blue-600">
-              Yuvenal Njoroge
+          <div className="flex-shrink-0 border rounded border-white hover:border-blue-600">
+            <Link href="/" className="">
+              <img src="LOGO.png" alt="logo" className="h-20 w-20" />
             </Link>
           </div>
 
