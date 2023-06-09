@@ -37,9 +37,16 @@ body {
 }
 
 .animate-fade-in {
-  /* animation: fadeIn 0.5s ease-in-out; */
   animation-name: fadeIn;
   animation-duration: 1.5s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: both;
+}
+
+
+/* Custom styles */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
 }
