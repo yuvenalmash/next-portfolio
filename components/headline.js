@@ -1,10 +1,11 @@
 'use client'
 import { TypeAnimation } from "react-type-animation";
 
-const Headline = () => {
+const headline = () => {
   return (
-    <div className="headline text-center space-y-4">
-      <h1 className="text-4xl font-bold text-white animate-fade-in">Yuvenal Njoroge</h1>
+    <div className="headline text-center space-y-4 h-screen flex flex-col justify-center items-center">
+      {/*  fade in  */}
+      <h1 className="text-4xl font-bold text-white animate-fade-in">Hi, I'm <span className="text-cyan-500">Yuvenal</span></h1>
       <TypeAnimation
         cursor={true}
         sequence={[
@@ -27,4 +28,4 @@ const Headline = () => {
   )
 }
 
-export default Headline
+export default headline;
