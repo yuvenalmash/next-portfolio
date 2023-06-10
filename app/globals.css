@@ -43,15 +43,10 @@ body {
   animation-fill-mode: both;
 }
 
-
-/* Custom styles */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
-body {
-  font-family: "Roboto", sans-serif;
-}
+/* Fonts */
 
 @font-face{
-  font-family: "Retro_computer";
-  src: url("/fonts/retro_computer_personal_use.ttf") format("truetype");
+  font-family: "Boxpixies";
+  src: url("/fonts/Boxpixies-MVAXn.ttf")
 }
+
