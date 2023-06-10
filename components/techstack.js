@@ -36,9 +36,11 @@ const Techstack = () => {
 
   return (
     <div id="tech-stack" className="py-20 flex flex-col justify-center items-center">
-      <h2 className="text-5xl font-retro_computer text-white text-center mb-16 py-3 px-5 border">Tech Stack</h2>
+      <h2 className="text-6xl font-boxpixies group text-white text-center mb-16 py-3 px-5 border rounded">
+        <span className="text-cyan-500 inline-block transition duration-300 ease-in-out group-hover:scale-110">T</span>
+        ech Stack
+      </h2>
       <div className="container mx-auto">
-        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"> */}
         <div className="flex flex-wrap gap-10 justify-center items-center">
           {Object.keys(techStackList).map((key, index) => (
             <div key={index} className="bg-gradient-to-b from-transparent to-cyan-950 rounded-lg shadow-lg">

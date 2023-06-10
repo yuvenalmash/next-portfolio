@@ -5,7 +5,10 @@ import { AiOutlineGithub, AiOutlineLink } from "react-icons/ai";
 const Projects = () => {
   return (
     <div id="projects" className="py-20 flex flex-col justify-center items-center">
-      <h2 className="text-5xl font-retro_computer text-white text-center mb-16 py-3 px-5 border">Projects</h2>
+      <h2 className="text-6xl font-boxpixies group text-white text-center mb-16 py-3 px-5 border rounded">
+        <span className="text-cyan-500 inline-block transition duration-300 ease-in-out group-hover:scale-110">P</span>
+        rojects
+      </h2>
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {projectsList.map((project, index) => (

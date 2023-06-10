@@ -13,7 +13,10 @@ const Contact = () => {
   };
   return (
     <div id="contact" className="py-20 flex flex-col justify-center items-center">
-      <h2 className="text-5xl font-retro_computer text-white text-center mb-16 py-3 px-5 border">Contact</h2>
+      <h2 className="text-6xl font-boxpixies group text-white text-center mb-16 py-3 px-5 border">
+        <span className="text-cyan-500 inline-block transition duration-300 ease-in-out group-hover:scale-110">C</span>
+        ontact
+      </h2>
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
           <div className="bg-gradient-to-l from-transparent to-cyan-800 rounded-lg shadow-lg">
