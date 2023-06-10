@@ -66,5 +66,17 @@ const socialLinks = {
   Wellfound: "https://wellfound.com/u/yuvenal-njoroge"
 }
 
+const aboutMe = {
+  name: "Yuvenal",
+  title: "Full Stack Developer",
+  description: `
+    I'm a Full Stack Developer with a passion
+    driven by the limitless possibilities of
+    technology. With experties in both front-end
+    and back-end development, I excel at
+    crafting intuitive user experiences and
+    architecting robust backend systems.
+    You'll find me cycling when I'm not coding.`,
+}
 
-export { projectsList, techStackList, socialLinks }
+export { projectsList, techStackList, socialLinks, aboutMe };
