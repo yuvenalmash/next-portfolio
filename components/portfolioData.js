@@ -76,6 +76,11 @@ const aboutMe = {
     and back-end development, I excel at
     crafting intuitive user experiences and
     architecting robust backend systems.
+    Continuously embracing emerging technologies
+    and frameworks, I try to stay at the forefront
+    of the industry trends. Collaborative and
+    adaptable, I prioritize communication and
+    teamwork to achieve the best results.
     You'll find me cycling when I'm not coding.`,
 }
 
