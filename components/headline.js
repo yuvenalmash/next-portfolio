@@ -6,7 +6,7 @@ const headline = () => {
   const { name, description } = aboutMe;
   return (
     <div className="headline text-center space-y-8 h-screen flex flex-col justify-center items-center">
-      <h1 className="text-4xl font-bold text-white animate-fade-in">Hi, I'm <span className="text-cyan-500">{name}</span></h1>
+      <h1 className="text-4xl font-bold text-white animate-fade-in">Hi, I&apos;m <span className="text-cyan-500">{name}</span></h1>
       <TypeAnimation
         cursor={true}
         sequence={[

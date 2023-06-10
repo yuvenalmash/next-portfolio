@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { socialLinks } from "./portfolioData";
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 
@@ -12,8 +13,8 @@ const Footer = () => {
     <footer className="w-screen h-12 bg-transparent flex justify-center items-center">
       <div className="flex justify-between items-center w-11/12">
         <div className="flex justify-center items-center">
-          <div className="border rounded-full border-white hover:scale-110 hover:animate-pulse">
-            <img src="/images/logo.svg" alt="logo" className="h-8 w-8 p-1" />
+          <div className="hover:scale-110 hover:animate-pulse">
+            <Image src="/images/logo.svg" alt="logo" width={40} height={40} className="p-1 border border-white rounded-lg" />
           </div>
           <p className="text-white text-lg font-bold ml-2">Yuvenal Njoroge</p>
         </div>
