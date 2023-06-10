@@ -50,3 +50,8 @@ body {
 body {
   font-family: "Roboto", sans-serif;
 }
+
+@font-face{
+  font-family: "Retro_computer";
+  src: url("/fonts/retro_computer_personal_use.ttf") format("truetype");
+}
