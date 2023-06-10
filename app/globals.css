@@ -43,10 +43,10 @@ body {
   animation-fill-mode: both;
 }
 
+/* Fonts */
 
-/* Custom styles */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
-body {
-  font-family: "Roboto", sans-serif;
+@font-face{
+  font-family: "Boxpixies";
+  src: url("/fonts/Boxpixies-MVAXn.ttf")
 }
+

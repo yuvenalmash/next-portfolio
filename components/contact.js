@@ -12,13 +12,16 @@ const Contact = () => {
     Medium: AiOutlineMedium
   };
   return (
-    <div id="contact" className="py-20">
+    <div id="contact" className="py-20 flex flex-col justify-center items-center">
+      <h2 className="text-6xl font-boxpixies group text-white text-center mb-16 py-3 px-5 border">
+        <span className="text-cyan-500 inline-block transition duration-300 ease-in-out group-hover:scale-110">C</span>
+        ontact
+      </h2>
       <div className="container mx-auto">
-        <h2 className="text-4xl font-bold text-white text-center mb-10">Contact</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
           <div className="bg-gradient-to-l from-transparent to-cyan-800 rounded-lg shadow-lg">
-            <div className="flex p-4">
-              <a href={`mailto:${socialLinks.Email}`} className="text-white flex w-full justify-center gap-2 transition-all duration-300 ease-in-out hover:scale-125 hover:text-orange-500">
+            <div className="flex">
+              <a href={`mailto:${socialLinks.Email}`} className="text-white flex w-full justify-center gap-2 transition-all duration-300 ease-in-out hover:scale-125 hover:text-teal-500">
                 <h3 className="text-2xl font-bold text-white mb-4">Email</h3>
                 <AiOutlineMail className="text-4xl" />
               </a>
@@ -27,8 +30,8 @@ const Contact = () => {
 
           {Object.keys(socialsMap).map((key, index) => (
             <div key={index} className="bg-gradient-to-l from-transparent to-cyan-800 rounded-lg shadow-lg">
-              <div className="flex p-4">
-                <a href={socialLinks[key]} target="_blank" rel="noopener noreferrer" className="text-white flex w-full  justify-center gap-2 transition-all duration-300 ease-in-out hover:scale-125 hover:text-orange-500 ">
+              <div className="flex">
+                <a href={socialLinks[key]} target="_blank" rel="noopener noreferrer" className="text-white flex w-full  justify-center gap-2 transition-all duration-300 ease-in-out hover:scale-125 hover:text-teal-500">
                   <h3 className="text-2xl font-bold text-white mb-4">{key}</h3>
                   {React.createElement(socialsMap[key], { className: "text-4xl" })}
                 </a>
