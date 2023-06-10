@@ -15,7 +15,7 @@ const Navbar = () => {
   const links = {
     Home: "/",
     Projects: "#projects",
-    TechStack: "#tech-stack",
+    Techstack: "#tech-stack",
     Contact: "#contact",
   }
 
@@ -37,8 +37,11 @@ const Navbar = () => {
             <ul className="flex space-x-4">
               {Object.keys(links).map((link, index) => (
                 <li key={index}>
-                  <Link href={links[link]} className="transition-colors duration-300 ease-out hover:text-cyan-500">
-                    {link}
+                  <Link href={links[link]} className="text-2xl group font-boxpixies transition-color duration-200 ease-in-out hover:text-cyan-500">
+                    <span className="transition-all duration-200 ease-in-out group-hover:animate-ping">
+                      {link.slice(0, 1)}
+                    </span>
+                    {link.slice(1)}
                   </Link>
                 </li>
               ))}
