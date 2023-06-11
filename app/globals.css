@@ -2,18 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
+/* :root {
+  --foreground-rgb: 30, 41, 59;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-}
+  --bg-alternate-rgb: 34, 211, 238;
+} */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --foreground-rgb: 241, 245, 249;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --bg-alternate-rgb: 8, 51, 68;
   }
+} */
+
+:root {
+  --foreground-rgb: 241, 245, 249;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+  --bg-alternate-rgb: 8, 51, 68;
 }
 
 body {
@@ -24,6 +33,18 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.headline {
+  background-image: radial-gradient(at 50% 65%, rgb(var(--bg-alternate-rgb)), rgb(var(--background-start-rgb)) 45%);
+}
+
+.project, .tech-category {
+  background: linear-gradient(to top, #083344, transparent);
+}
+
+.contact-item, .mobile-menu {
+  background: linear-gradient(to right, #083344, transparent);
 }
 
 /* Animations */
@@ -38,7 +59,7 @@ body {
 
 .animate-fade-in {
   animation-name: fadeIn;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: both;
 }
