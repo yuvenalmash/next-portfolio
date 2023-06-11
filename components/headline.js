@@ -5,8 +5,8 @@ import { aboutMe } from "./portfolioData";
 const headline = () => {
   const { name, description } = aboutMe;
   return (
-    <div className="headline text-center space-y-8 h-screen flex flex-col justify-center items-center">
-      <h1 className="text-5xl font-bold text-white animate-fade-in">Hi, I&apos;m <span className="text-cyan-500">{name}</span></h1>
+    <div className="headline w-screen text-center space-y-8 min-h-screen px-5 flex flex-col justify-center items-center">
+      <h1 className="text-4xl sm:text-5xl font-bold animate-fade-in">Hi, I&apos;m <span className="text-cyan-500">{name}</span></h1>
       <TypeAnimation
         cursor={true}
         sequence={[
@@ -19,14 +19,13 @@ const headline = () => {
           "Full Stack Developer",
         ]}
         wrapper="h2"
-        className="text-4xl text-slate-400 font-boxpixies"
+        className="text-3xl text-slate-500 dark:text-slate-400 font-boxpixies"
       />
-      <p className="text-lg text-white max-w-md">
+      <p className="text-lg max-w-2xl">
         {description}
       </p>
     </div>
-
-  )
-}
+  );
+};
 
 export default headline;

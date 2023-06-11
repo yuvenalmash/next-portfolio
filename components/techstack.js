@@ -36,20 +36,20 @@ const Techstack = () => {
 
   return (
     <div id="tech-stack" className="py-20 flex flex-col justify-center items-center">
-      <h2 className="text-6xl font-boxpixies group text-white text-center mb-16 py-3 px-5 border rounded">
+      <h2 className="text-6xl font-boxpixies group text-center mb-16 py-3 px-5 border border-slate-400 rounded">
         <span className="text-cyan-500 inline-block transition duration-300 ease-in-out group-hover:scale-110">T</span>
         ech Stack
       </h2>
       <div className="container mx-auto">
         <div className="flex flex-wrap gap-10 justify-center items-center">
           {Object.keys(techStackList).map((key, index) => (
-            <div key={index} className="bg-gradient-to-b from-transparent to-cyan-950 rounded-lg shadow-lg">
+            <div key={index} className="tech-category rounded shadow-lg">
               <div className="p-6">
-                <h3 className="text-2xl font-bold text-white mb-4">{key}</h3>
+                <h3 className="text-2xl font-bold mb-4">{key}</h3>
                 <div className="flex flex-wrap gap-2 max-w-sm">
                   {techStackList[key].map((tech, index) => (
                     <div key={index} className="flex justify-center">
-                      <span className="techStackItem text-white bg-cyan-950 px-2 py-1 rounded-lg hover:scale-110 hover:bg-cyan-900 transition-colors duration-300 ease-in-out flex items-center space-x-2 gap-2">
+                      <span className="techStackItem text-slate-200 bg-cyan-950 px-2 py-1 rounded hover:scale-110 hover:bg-cyan-900 transition-colors duration-300 ease-in-out flex items-center space-x-2 gap-2">
                         <span className="techStachIcon inline-block transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                           {techStackIcons[tech]}
                         </span>
