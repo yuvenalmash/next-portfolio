@@ -1,52 +1,52 @@
 const projectsList = [
   {
-    name: "Project 1",
-    description: "This is a project",
-    techStack: ["React", "Next.js", "Tailwind CSS"],
-    github: "https://github.com/yuvenalmash",
+    name: "Drive wise",
+    description: "DriveWise is a web application that allows users to book test-drives from car dealers. It provides a seamless and user-friendly experience for people who are looking to make informed decisions before purchasing a vehicle.",
+    techStack: ["Ruby", "Rails", "React", "Redux", "PostgreSQL"],
+    github: "https://github.com/iamchristianani/drivewise-backend",
     live: "https://yuvenal.dev",
-    image: "/images/projectImg-placeholder.png"
+    image: "/images/projects/drivewise.jpg"
   },
   {
-    name: "Project 2",
-    description: "This is a project",
-    techStack: ["React", "Next.js", "Tailwind CSS"],
-    github: "https://github.com/yuvenalmash",
-    live: "https://yuvenal.dev",
-    image: "/images/projectImg-placeholder.png"
+    name: "Stock-411",
+    description: "Finance web application that allows users to view real-time price quotes of different companies. UI meant for small screens ",
+    techStack: ["React", "Redux", "CSS"],
+    github: "https://github.com/yuvenalmash/stock-411",
+    live: "https://yuvenalmash.github.io/stock-411/",
+    image: "/images/projects/stock-411.png"
   },
   {
-    name: "Project 3",
-    description: "This is a project",
-    techStack: ["React", "Next.js", "Tailwind CSS"],
+    name: "Auto Auction",
+    description: "A website announcing a vehicle auction event. It gives the organiser an opportunity to customize the event details dynamically. It has a responsive design and can be viewed on any device.",
+    techStack: ["JavaScript", "HTML", "CSS"],
     github: "https://github.com/yuvenalmash",
-    live: "https://yuvenal.dev",
-    image: "/images/projectImg-placeholder.png"
+    live: "https://yuvenalmash.github.io/vehicle-auction/",
+    image: "/images/projects/vehicle-auction.png"
   },
-  {
-    name: "Project 4",
-    description: "This is a project",
-    techStack: ["React", "Next.js", "Tailwind CSS"],
-    github: "https://github.com/yuvenalmash",
-    live: "https://yuvenal.dev",
-    image: "/images/projectImg-placeholder.png"
-  },
-  {
-    name: "Project 5",
-    description: "This is a project",
-    techStack: ["React", "Next.js", "Tailwind CSS"],
-    github: "https://github.com/yuvenalmash",
-    live: "https://yuvenal.dev",
-    image: "/images/projectImg-placeholder.png"
-  },
-  {
-    name: "Project 6",
-    description: "This is a project",
-    techStack: ["React", "Next.js", "Tailwind CSS"],
-    github: "https://github.com/yuvenalmash",
-    live: "https://yuvenal.dev",
-    image: "/images/projectImg-placeholder.png"
-  }
+  // {
+  //   name: "Project 4",
+  //   description: "This is a project",
+  //   techStack: ["React", "Next.js", "Tailwind CSS"],
+  //   github: "https://github.com/yuvenalmash",
+  //   live: "https://yuvenal.dev",
+  //   image: "/images/projectImg-placeholder.png"
+  // },
+  // {
+  //   name: "Project 5",
+  //   description: "This is a project",
+  //   techStack: ["React", "Next.js", "Tailwind CSS"],
+  //   github: "https://github.com/yuvenalmash",
+  //   live: "https://yuvenal.dev",
+  //   image: "/images/projectImg-placeholder.png"
+  // },
+  // {
+  //   name: "Project 6",
+  //   description: "This is a project",
+  //   techStack: ["React", "Next.js", "Tailwind CSS"],
+  //   github: "https://github.com/yuvenalmash",
+  //   live: "https://yuvenal.dev",
+  //   image: "/images/projectImg-placeholder.png"
+  // }
 ];
 
 const techStackList = {

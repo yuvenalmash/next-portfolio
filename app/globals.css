@@ -35,6 +35,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.project-popup {
+  background: linear-gradient(to top, #083344, transparent);
+}
+
 .headline {
   background-image: radial-gradient(at 50% 65%, rgb(var(--bg-alternate-rgb)), rgb(var(--background-start-rgb)) 45%);
 }

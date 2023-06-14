@@ -20,6 +20,9 @@ const Footer = () => {
           </div>
           <p className="text-lg ml-2">Yuvenal Njoroge</p>
         </div>
+        <div>
+          <p className="text-lg">Built with Next.js and Tailwind CSS</p>
+        </div>
         <div className="flex justify-center items-center">
           {Object.keys(socialsMap).map((key, index) => (
             <a key={index} href={socialLinks[key]} target="_blank" rel="noopener noreferrer">
