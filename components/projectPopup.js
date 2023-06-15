@@ -20,7 +20,7 @@ const ProjectPopup = ({ project, closePopup }) => {
               <a href={project.github} target="_blank" className="text-white hover:text-teal-600 hover:scale-110">
                 <AiOutlineGithub className="text-2xl" />
               </a>
-              <a href="project.live" target="_blank" className="text-white hover:text-teal-600 hover:scale-110">
+              <a href={project.live} target="_blank" className="text-white hover:text-teal-600 hover:scale-110">
                 <AiOutlineLink className="text-3xl" />
               </a>
             </div>
