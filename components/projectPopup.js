@@ -17,10 +17,10 @@ const ProjectPopup = ({ project, closePopup }) => {
               {project.description}
             </p>
             <div className="flex space-x-4 mt-2 mb-2">
-              <a href={project.github} target="_blank" className="text-white hover:text-teal-600 hover:scale-110">
+              <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-white hover:text-teal-600 hover:scale-110">
                 <AiOutlineGithub className="text-2xl" />
               </a>
-              <a href="project.live" target="_blank" className="text-white hover:text-teal-600 hover:scale-110">
+              <a href={project.live} target="_blank" rel="noopener noreferrer" className="text-white hover:text-teal-600 hover:scale-110">
                 <AiOutlineLink className="text-3xl" />
               </a>
             </div>

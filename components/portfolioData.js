@@ -4,7 +4,7 @@ const projectsList = [
     description: "DriveWise is a web application that allows users to book test-drives from car dealers. It provides a seamless and user-friendly experience for people who are looking to make informed decisions before purchasing a vehicle.",
     techStack: ["Ruby", "Rails", "React", "Redux", "PostgreSQL"],
     github: "https://github.com/iamchristianani/drivewise-backend",
-    live: "https://yuvenal.dev",
+    live: "https://drivewise.onrender.com/",
     image: "/images/projects/drivewise.jpg"
   },
   {
@@ -23,14 +23,14 @@ const projectsList = [
     live: "https://yuvenalmash.github.io/vehicle-auction/",
     image: "/images/projects/vehicle-auction.png"
   },
-  // {
-  //   name: "Project 4",
-  //   description: "This is a project",
-  //   techStack: ["React", "Next.js", "Tailwind CSS"],
-  //   github: "https://github.com/yuvenalmash",
-  //   live: "https://yuvenal.dev",
-  //   image: "/images/projectImg-placeholder.png"
-  // },
+  {
+    name: "Shyn TV",
+    description: "This is a single page application that displays featured shows, and allows users to search for TV shows. The application uses tvmaze API to get shows and display them and an interaction API to handle likes and comments. It has a responsive design and can be viewed on any device.",
+    techStack: ["JavaScript", "HTML", "CSS"],
+    github: "https://github.com/yuvenalmash/shyn-tv",
+    live: "https://yuvenalmash.github.io/shyn-tv/dist/",
+    image: "/images/projects/shyn-tv.png"
+  },
   // {
   //   name: "Project 5",
   //   description: "This is a project",
@@ -54,7 +54,8 @@ const techStackList = {
   Frameworks: ["Django", "Ruby on Rails", "React", "Next.js", "Tailwind CSS"],
   Databases: ["PostgreSQL", "MySQL", "SQLite", "MongoDB"],
   Testing: ["Jest", "RSpec", "Capybara", "Selenium"],
-  Tools: ["Git", "GitHub", "Heroku", "Netlify", "Vercel", "Postman"]
+  Tools: ["Git", "GitHub", "Heroku", "Netlify", "Vercel", "Postman"],
+  Professional: ["Project Management", "Collaboration",  "Effective Communication", "Attention to Detail","Problem Solving"]
 }
 
 const socialLinks = {
