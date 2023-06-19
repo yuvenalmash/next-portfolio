@@ -43,7 +43,7 @@ const Techstack = () => {
         ech Stack
       </h2>
       <p className="text-xl text-center mb-16 max-w-3xl">
-        I have worked with a variety of technologies in my career as a developer. Here are some of the technologies I have worked with and I'm skilled at:
+        I have worked with a variety of technologies in my career as a developer. Here are some of the technologies I have worked with and I&apos;m skilled at:
       </p>
       <div className="container mx-auto">
         <div className="flex flex-wrap gap-10 justify-center items-center">
