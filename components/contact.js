@@ -17,6 +17,9 @@ const Contact = () => {
         <span className="text-cyan-500 inline-block transition duration-300 ease-in-out group-hover:scale-110">C</span>
         ontact
       </h2>
+      <p className="text-xl text-center mb-16 max-w-2xl">
+        I&apos;m currently looking for new opportunities. If you have a project or an idea you&apos;d like to discuss, please feel free to reach out to me:
+      </p>
       <div className="container mx-auto w-fit">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
           <div className="contact-item rounded shadow-lg w-fit pl-3">
