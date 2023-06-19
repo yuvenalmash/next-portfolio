@@ -12,7 +12,7 @@ const projectsList = [
     description: "A RESTful API for a blogging application. It allows users to create, read, update and delete articles and comments. It also allows users to like and dislike articles. JWT is used for authentication and authorization. The endpoints are documented using Swagger.",
     techStack: ["Ruby", "Rails", "PostgreSQL"],
     github: "https://github.com/yuvenalmash/inkwell-blog-api",
-    live: "https://inkwell-blog-api.onrender.com/api-docs",
+    live: "https://inkwell-blog-api.onrender.com/api-docs/index.html",
     image: "/images/projects/inkwell-blog-api.png"
   },
   {
