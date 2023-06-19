@@ -32,7 +32,7 @@ const Projects = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {projectsList.map((project, index) => (
-            <div key={index} className="project rounded shadow-lg">
+            <div key={index} className="project rounded shadow shadow-cyan-400">
               <Image src={project.image} alt={project.name} className="rounded-t-lg" width={500} height={300} />
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-2">{project.name}</h3>

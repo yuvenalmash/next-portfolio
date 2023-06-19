@@ -63,7 +63,7 @@ const techStackList = {
   Databases: ["PostgreSQL", "MySQL", "SQLite", "MongoDB"],
   Testing: ["Jest", "RSpec", "Capybara", "Selenium"],
   Tools: ["Git", "GitHub", "Heroku", "Netlify", "Vercel", "Postman"],
-  Professional: ["Project Management", "Collaboration",  "Effective Communication", "Attention to Detail","Problem Solving"]
+  Professional: ["Project Management", "Agile Methodologies", "Teamwork", "Effective Communication"]
 }
 
 const socialLinks = {
