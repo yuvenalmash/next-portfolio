@@ -8,6 +8,14 @@ const projectsList = [
     image: "/images/projects/drivewise.jpg"
   },
   {
+    name: "Inkwell-Blog API",
+    description: "A RESTful API for a blogging application. It allows users to create, read, update and delete articles. It also allows users to create, read, update and delete comments on articles. It is built using Ruby on Rails and PostgreSQL.",
+    techStack: ["Ruby", "Rails", "PostgreSQL"],
+    github: "https://github.com/yuvenalmash/inkwell-blog-api",
+    live: "https://inkwell-blog-api.onrender.com/api-docs",
+    image: "/images/projects/inkwell-blog-api.png"
+  },
+  {
     name: "Stock-411",
     description: "Finance web application that allows users to view real-time price quotes of different companies. UI meant for small screens ",
     techStack: ["React", "Redux", "CSS"],
