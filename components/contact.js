@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "./contactForm";
 import { socialLinks } from "./portfolioData";
 import { AiOutlineMail, AiOutlineGithub, AiOutlineLinkedin, AiOutlineTwitter, AiOutlineMedium } from "react-icons/ai";
 import { SiAngellist } from "react-icons/si";
@@ -20,28 +21,34 @@ const Contact = () => {
       <p className="text-xl text-center mb-16 max-w-2xl">
         I&apos;m currently looking for new opportunities. If you have a project or an idea you&apos;d like to discuss, please feel free to reach out to me:
       </p>
-      <div className="container mx-auto w-fit">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-          <div className="contact-item rounded shadow-lg w-fit pl-3">
-            <div className="flex">
-              <a href={`mailto:${socialLinks.Email}`} className="flex w-full justify-center gap-2 transition-all duration-300 ease-in-out hover:scale-125 hover:text-teal-500">
-                <h3 className="text-2xl">Email</h3>
-                <AiOutlineMail className="text-3xl" />
-              </a>
-            </div>
-          </div>
-
-          {Object.keys(socialsMap).map((key, index) => (
-            <div key={index} className="contact-item rounded shadow-lg w-fit px-3">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-10">
+        <div className="container mx-auto w-fit">
+          <div className="grid grid-cols-1 gap-3">
+            <div className="contact-item rounded shadow-lg w-fit pl-3">
               <div className="flex">
-                <a href={socialLinks[key]} target="_blank" rel="noopener noreferrer" className="flex w-full  justify-center gap-2 transition-all duration-300 ease-in-out hover:scale-125 hover:text-teal-500">
-                  <h3 className="text-2xl">{key}</h3>
-                  {React.createElement(socialsMap[key], { className: "text-3xl" })}
+                <a href={`mailto:${socialLinks.Email}`} className="flex w-full justify-center gap-2 transition-all duration-300 ease-in-out hover:scale-125 hover:text-teal-500">
+                  <h3 className="text-2xl">Email</h3>
+                  <AiOutlineMail className="text-3xl" />
                 </a>
               </div>
             </div>
-          ))}
+
+            {Object.keys(socialsMap).map((key, index) => (
+              <div key={index} className="contact-item rounded shadow-lg w-fit px-3">
+                <div className="flex">
+                  <a href={socialLinks[key]} target="_blank" rel="noopener noreferrer" className="flex w-full  justify-center gap-2 transition-all duration-300 ease-in-out hover:scale-125 hover:text-teal-500">
+                    <h3 className="text-2xl">{key}</h3>
+                    {React.createElement(socialsMap[key], { className: "text-3xl" })}
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
+        {/* line divider */}
+        <div className="hidden md:block w-1 h-64  bg-slate-400"></div>
+        <div className="md:hidden h-1 w-3/4 bg-slate-400"></div>
+        <ContactForm />
       </div>
     </div>
   );
