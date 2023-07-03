@@ -1,13 +1,9 @@
 import React from "react";
-import Image from "next/image";
-import { socialLinks } from "./portfolioData";
-import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
+import { TbSourceCode } from "react-icons/tb";
 
 const Footer = () => {
-  const socialsMap = {
-    Github: AiOutlineGithub,
-    LinkedIn: AiOutlineLinkedin
-  };
+
+  const sourceCode = "https://github.com/yuvenalmash/next-portfolio";
 
   return (
     <footer className="w-screen h-12 bg-transparent flex justify-center items-center">
@@ -23,12 +19,11 @@ const Footer = () => {
         <div>
           <p className="text-lg hidden sm:block">Built with Next.js and Tailwind CSS</p>
         </div>
+        {/* source code */}
         <div className="flex justify-center items-center">
-          {Object.keys(socialsMap).map((key, index) => (
-            <a key={index} href={socialLinks[key]} target="_blank" rel="noopener noreferrer">
-              {React.createElement(socialsMap[key], { className: "text-2xl mr-4 transition-colors duration-300 ease-in-out hover:text-cyan-500" })}
-            </a>
-          ))}
+          <a href={sourceCode} target="_blank" rel="noopener noreferrer" className="shadow hover:text-cyan-500 hover:scale-110 hover:shadow-cyan-400 transition-all duration-300 ease-in-out">
+            <TbSourceCode className="text-3xl" />
+          </a>
         </div>
       </div>
     </footer>
