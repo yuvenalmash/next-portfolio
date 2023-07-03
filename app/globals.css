@@ -35,19 +35,15 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.project-popup {
-  background: linear-gradient(to top, #083344, transparent);
-}
-
 .headline {
   background-image: radial-gradient(at 50% 65%, rgb(var(--bg-alternate-rgb)), rgb(var(--background-start-rgb)) 45%);
 }
 
-.project, .tech-category {
+.project, .project-popup, .tech-category, .contact-item, .form-field {
   background: linear-gradient(to top, #083344, transparent);
 }
 
-.contact-item, .mobile-menu {
+.mobile-menu {
   background: linear-gradient(to right, #083344, transparent);
 }
 
