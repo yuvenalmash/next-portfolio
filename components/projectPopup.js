@@ -1,4 +1,5 @@
-import { AiOutlineGithub, AiOutlineLink, AiOutlineCloseCircle } from "react-icons/ai";
+import { AiOutlineLink, AiOutlineCloseCircle } from "react-icons/ai";
+import { TbSourceCode } from "react-icons/tb";
 import Image from "next/image";
 
 const ProjectPopup = ({ project, closePopup }) => {
@@ -17,8 +18,8 @@ const ProjectPopup = ({ project, closePopup }) => {
               {project.description}
             </p>
             <div className="flex space-x-4 mt-2 mb-2">
-              <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-white hover:text-teal-600 hover:scale-110">
-                <AiOutlineGithub className="text-2xl" />
+              <a href={project.sourceCode} target="_blank" rel="noopener noreferrer" className="text-white hover:text-teal-600 hover:scale-110">
+                <TbSourceCode className="text-3xl" />
               </a>
               <a href={project.live} target="_blank" rel="noopener noreferrer" className="text-white hover:text-teal-600 hover:scale-110">
                 <AiOutlineLink className="text-3xl" />

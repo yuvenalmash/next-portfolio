@@ -8,20 +8,20 @@ const ContactForm = () => {
       return <p>Thanks for the message!</p>;
   }
   return (
-      <form onSubmit={handleSubmit} className="flex flex-col gap-3 container mx-auto w-fit">
+    <form onSubmit={handleSubmit} className="flex flex-col gap-3 container mx-auto max-w-lg">
       <input
         id="name"
         type="text"
         name="name"
         placeholder="Your name"
-        className="rounded shadow-lg p-2 text-gray-700"
+        className="form-field shadow shadow-cyan-400 p-2 bg-cyan-900 text-slate-200"
       />
       <input
         id="email"
         type="email"
         name="email"
         placeholder="Your email"
-        className="rounded shadow-lg p-2 text-gray-700"
+        className="form-field shadow shadow-cyan-400 p-2 bg-cyan-900 text-slate-200"
       />
       <ValidationError
         prefix="Email"
@@ -33,14 +33,14 @@ const ContactForm = () => {
         name="message"
         rows="5"
         placeholder="Your message"
-        className="rounded shadow-lg p-2 text-gray-700"
+        className="form-field shadow shadow-cyan-400 p-2 bg-cyan-900 text-slate-200"
       />
       <ValidationError
         prefix="Message"
         field="message"
         errors={state.errors}
       />
-      <button type="submit" disabled={state.submitting} className="rounded shadow-lg bg-cyan-500 hover:bg-cyan-600 text-white py-2 px-4">
+      <button type="submit" disabled={state.submitting} className="font-bold shadow shadow-cyan-400 hover:shadow-md hover:bg-cyan-700 hover:shadow-cyan-400 transition-all duration-300 ease-in-out bg-cyan-900 text-slate-200 p-2">
         Submit
       </button>
     </form>

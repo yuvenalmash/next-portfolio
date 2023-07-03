@@ -5,7 +5,7 @@ import { aboutMe } from "./portfolioData";
 const headline = () => {
   const { name, description } = aboutMe;
   return (
-    <div className="headline w-screen text-center space-y-8 min-h-screen px-5 flex flex-col justify-center items-center">
+    <div className="headline w-screen text-center space-y-8 min-h-screen px-5 mt-20 sm:mt-0 flex flex-col justify-center items-center">
       <h1 className="text-4xl sm:text-5xl font-bold animate-fade-in">Hi, I&apos;m <span className="text-cyan-500">{name}</span></h1>
       <TypeAnimation
         cursor={true}
