@@ -67,7 +67,7 @@ const techStackList = {
 }
 
 const socialLinks = {
-  Github: "https://github.com/yuvenalmash",
+  GitHub: "https://github.com/yuvenalmash",
   LinkedIn: "https://www.linkedin.com/in/yuvenal-njoroge/",
   Twitter: "https://twitter.com/YuvenalNjoroge",
   Email: "yuvenal.njoroge@gmail.com",
