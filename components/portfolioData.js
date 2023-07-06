@@ -23,22 +23,22 @@ const projectsList = [
     live: "https://yuvenalmash.github.io/stock-411/",
     image: "/images/projects/stock-411.png"
   },
-  {
-    name: "Auto Auction",
-    description: "A website announcing a vehicle auction event. It gives the organiser an opportunity to customize the event details dynamically. It has a responsive design and can be viewed on any device.",
-    techStack: ["JavaScript", "HTML", "CSS"],
-    sourceCode: "https://github.com/yuvenalmash",
-    live: "https://yuvenalmash.github.io/vehicle-auction/",
-    image: "/images/projects/vehicle-auction.png"
-  },
-  {
-    name: "Shyn TV",
-    description: "This is a single page application that displays featured shows, and allows users to search for TV shows. The application uses tvmaze API to get shows and display them and an interaction API to handle likes and comments. It has a responsive design and can be viewed on any device.",
-    techStack: ["JavaScript", "HTML", "CSS"],
-    sourceCode: "https://github.com/yuvenalmash/shyn-tv",
-    live: "https://yuvenalmash.github.io/shyn-tv/dist/",
-    image: "/images/projects/shyn-tv.png"
-  },
+  // {
+  //   name: "Auto Auction",
+  //   description: "A website announcing a vehicle auction event. It gives the organiser an opportunity to customize the event details dynamically. It has a responsive design and can be viewed on any device.",
+  //   techStack: ["JavaScript", "HTML", "CSS"],
+  //   sourceCode: "https://github.com/yuvenalmash",
+  //   live: "https://yuvenalmash.github.io/vehicle-auction/",
+  //   image: "/images/projects/vehicle-auction.png"
+  // },
+  // {
+  //   name: "Shyn TV",
+  //   description: "This is a single page application that displays featured shows, and allows users to search for TV shows. The application uses tvmaze API to get shows and display them and an interaction API to handle likes and comments. It has a responsive design and can be viewed on any device.",
+  //   techStack: ["JavaScript", "HTML", "CSS"],
+  //   sourceCode: "https://github.com/yuvenalmash/shyn-tv",
+  //   live: "https://yuvenalmash.github.io/shyn-tv/dist/",
+  //   image: "/images/projects/shyn-tv.png"
+  // },
   // {
   //   name: "Project 5",
   //   description: "This is a project",
