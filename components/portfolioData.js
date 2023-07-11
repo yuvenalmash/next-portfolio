@@ -1,5 +1,13 @@
 const projectsList = [
   {
+    name: "Undertakings",
+    description: "Undertakings is a simple task manager that allows users to create, read, update, and delete tasks. The application is built using React and Redux for the front-end and Ruby on Rails for the back-end (API). It uses PostgreSQL for the database and JWT (JSON Web Token) for authentication and authorization. It has a responsive design and can be viewed on any device.",
+    techStack: ["Ruby on Rails", "React", "Redux", "TypeScript", "PostgreSQL"],
+    sourceCode: "https://github.com/yuvenalmash/undertakings",
+    live: "https://undertakings-webapp.vercel.app/",
+    image: "/images/projects/undertakings.png"
+  },
+  {
     name: "Drive wise",
     description: "DriveWise is a web application that allows users to book test-drives from car dealers. It provides a seamless and user-friendly experience for people who are looking to make informed decisions before purchasing a vehicle.",
     techStack: ["Ruby", "Rails", "React", "Redux", "PostgreSQL"],
