@@ -1,7 +1,7 @@
 const projectsList = [
   {
     name: "Undertakings",
-    description: "Undertakings is a simple task manager that allows users to create, read, update, and delete tasks. The application is built using React and Redux for the front-end and Ruby on Rails for the back-end (API). It uses PostgreSQL for the database and JWT (JSON Web Token) for authentication and authorization. It has a responsive design and can be viewed on any device.",
+    description: "Undertakings is a simple task manager that allows users to create, read, update, and delete tasks. The application is built using React and Redux for the front-end and Ruby on Rails for the back-end (API). It uses PostgreSQL for the database and JWT (JSON Web Token) for authentication and authorization. There are tests for the endpoints using RSpec. It has a responsive design and can be viewed on any device.",
     techStack: ["Ruby on Rails", "React", "Redux", "TypeScript", "PostgreSQL"],
     sourceCode: "https://github.com/yuvenalmash/undertakings",
     live: "https://undertakings-webapp.vercel.app/",
