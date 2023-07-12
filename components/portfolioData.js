@@ -25,7 +25,7 @@ const projectsList = [
   },
   {
     name: "Stock-411",
-    description: "Finance web application that allows users to view real-time price quotes of different companies. UI meant for small screens ",
+    description: "Finance web application that allows users to view real-time price quotes of different companies. Gets the quotes from the API in www.stockdata.org. UI meant for small screens",
     techStack: ["React", "Redux", "CSS"],
     sourceCode: "https://github.com/yuvenalmash/stock-411",
     live: "https://yuvenalmash.github.io/stock-411/",
