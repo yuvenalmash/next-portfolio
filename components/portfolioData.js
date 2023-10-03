@@ -1,5 +1,13 @@
 const projectsList = [
   {
+    name: "Stock-411",
+    description: "Finance web application that allows users to view real-time price quotes of different companies. Gets the quotes from the API in www.stockdata.org. UI meant for small screens",
+    techStack: ["React", "Redux", "CSS"],
+    sourceCode: "https://github.com/yuvenalmash/stock-411",
+    live: "https://yuvenalmash.github.io/stock-411/",
+    image: "/images/projects/stock-411.png"
+  },
+  {
     name: "Undertakings",
     description: "Undertakings is a simple task manager that allows users to create, read, update, and delete tasks. The application is built using React and Redux for the front-end and Ruby on Rails for the back-end (API). It uses PostgreSQL for the database and JWT (JSON Web Token) for authentication and authorization. There are tests for the endpoints using RSpec. It has a responsive design and can be viewed on any device.",
     techStack: ["Ruby on Rails", "React", "Redux", "TypeScript", "PostgreSQL"],
@@ -22,14 +30,6 @@ const projectsList = [
     sourceCode: "https://github.com/yuvenalmash/inkwell-blog-api",
     live: "https://inkwell-blog-api.onrender.com/api-docs/index.html",
     image: "/images/projects/inkwell-blog-api.png"
-  },
-  {
-    name: "Stock-411",
-    description: "Finance web application that allows users to view real-time price quotes of different companies. Gets the quotes from the API in www.stockdata.org. UI meant for small screens",
-    techStack: ["React", "Redux", "CSS"],
-    sourceCode: "https://github.com/yuvenalmash/stock-411",
-    live: "https://yuvenalmash.github.io/stock-411/",
-    image: "/images/projects/stock-411.png"
   },
   // {
   //   name: "Auto Auction",
