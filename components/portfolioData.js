@@ -1,5 +1,13 @@
 const projectsList = [
   {
+    name: "Inkwell-Blog API",
+    description: "A RESTful API for a blogging application. It allows users to create, read, update and delete articles and comments. It also allows users to like and dislike articles. JWT is used for authentication and authorization. The endpoints are documented using Swagger.",
+    techStack: ["Ruby", "Rails", "PostgreSQL"],
+    sourceCode: "https://github.com/yuvenalmash/inkwell-blog-api",
+    live: "https://inkwell-blog-api.onrender.com/api-docs/index.html",
+    image: "/images/projects/inkwell-blog-api.png"
+  },
+  {
     name: "Stock-411",
     description: "Finance web application that allows users to view real-time price quotes of different companies. Gets the quotes from the API in www.stockdata.org. UI meant for small screens",
     techStack: ["React", "Redux", "CSS"],
@@ -22,14 +30,6 @@ const projectsList = [
     sourceCode: "https://github.com/iamchristianani/drivewise-backend",
     live: "https://drivewise.onrender.com/",
     image: "/images/projects/drivewise.jpg"
-  },
-  {
-    name: "Inkwell-Blog API",
-    description: "A RESTful API for a blogging application. It allows users to create, read, update and delete articles and comments. It also allows users to like and dislike articles. JWT is used for authentication and authorization. The endpoints are documented using Swagger.",
-    techStack: ["Ruby", "Rails", "PostgreSQL"],
-    sourceCode: "https://github.com/yuvenalmash/inkwell-blog-api",
-    live: "https://inkwell-blog-api.onrender.com/api-docs/index.html",
-    image: "/images/projects/inkwell-blog-api.png"
   },
   // {
   //   name: "Auto Auction",
