@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import '@coreui/coreui/dist/css/coreui.min.css';
+
 /* :root {
   --foreground-rgb: 30, 41, 59;
   --background-start-rgb: 214, 219, 220;
@@ -23,6 +25,7 @@
   --background-start-rgb: 0, 0, 0;
   --background-end-rgb: 0, 0, 0;
   --bg-alternate-rgb: 8, 51, 68;
+  --cursor-color: rgb(var(--foreground-rgb));
 }
 
 body {
