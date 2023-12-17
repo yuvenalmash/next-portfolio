@@ -21,9 +21,9 @@ const ProjectPopup = ({ project, closePopup }) => {
               <a href={project.sourceCode} target="_blank" rel="noopener noreferrer" className="text-white hover:text-teal-600 hover:scale-110">
                 <TbSourceCode className="text-3xl" />
               </a>
-              <a href={project.live} target="_blank" rel="noopener noreferrer" className="text-white hover:text-teal-600 hover:scale-110">
+              {/* <a href={project.live} target="_blank" rel="noopener noreferrer" className="text-white hover:text-teal-600 hover:scale-110">
                 <AiOutlineLink className="text-3xl" />
-              </a>
+              </a> */}
             </div>
             <div className="flex flex-wrap gap-3 items-start">
               {project.techStack.map((tech, index) => (

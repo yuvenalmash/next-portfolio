@@ -45,9 +45,9 @@ const Projects = () => {
                     <a href={project.sourceCode} target="_blank" rel="noopener noreferrer" className="text-white shadow hover:text-cyan-500 hover:scale-110 hover:shadow-cyan-400 transition-all duration-300 ease-in-out">
                       <TbSourceCode className="text-3xl" />
                     </a>
-                    <a href={project.live} target="_blank" rel="noopener noreferrer" className="text-white shadow hover:text-cyan-500 hover:scale-110 hover:shadow-cyan-400 transition-all duration-300 ease-in-out">
+                    {/* <a href={project.live} target="_blank" rel="noopener noreferrer" className="text-white shadow hover:text-cyan-500 hover:scale-110 hover:shadow-cyan-400 transition-all duration-300 ease-in-out">
                       <AiOutlineLink className="text-3xl" />
-                    </a>
+                    </a> */}
                   </div>
                   <button onClick={() => openPopup(project)} className="underline px-1 shadow hover:text-cyan-500 hover:scale-110 hover:shadow-cyan-400 transition-all duration-300 ease-in-out">
                     More Details
