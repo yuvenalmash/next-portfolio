@@ -17,7 +17,7 @@ const Footer = () => {
           <p className="text-lg ml-2">Yuvenal Njoroge</p>
         </div>
         <div>
-          <p className="text-lg hidden sm:block">Built with Next.js and Tailwind CSS</p>
+          <p className="text-lg hidden sm:block">Built with Next.js</p>
         </div>
         {/* source code */}
         <div className="flex justify-center items-center">
