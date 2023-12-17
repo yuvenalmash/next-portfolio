@@ -6,10 +6,10 @@ import { snowflakeCursor } from 'cursor-effects';
 import Carousel from "./carousel";
 
 const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
-    ssr: false,
+  ssr: false,
 });
 
-const headline = () => {
+const Headline = () => {
   useEffect(() => {
     // Initialize Cursor only on the client side
     new snowflakeCursor();
@@ -52,4 +52,4 @@ const headline = () => {
   );
 };
 
-export default headline;
+export default Headline;
