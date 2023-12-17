@@ -25,6 +25,7 @@
   --background-start-rgb: 0, 0, 0;
   --background-end-rgb: 0, 0, 0;
   --bg-alternate-rgb: 8, 51, 68;
+  --cursor-color: rgb(var(--foreground-rgb));
 }
 
 body {
