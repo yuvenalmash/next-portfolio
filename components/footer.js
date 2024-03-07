@@ -6,7 +6,7 @@ const Footer = () => {
   const sourceCode = "https://github.com/yuvenalmash/next-portfolio";
 
   return (
-    <footer className="w-screen h-12 bg-transparent flex justify-center items-center">
+    <footer className="w-full h-12 bg-transparent flex justify-center items-center">
       <div className="flex justify-between items-center w-11/12">
         <div className="flex justify-center items-center">
           <div className="hover:scale-110 hover:animate-pulse">
