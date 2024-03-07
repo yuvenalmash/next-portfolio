@@ -71,6 +71,7 @@ body {
 
 @font-face{
   font-family: "Boxpixies";
-  src: url("/fonts/Boxpixies-MVAXn.ttf")
+  src: url("/fonts/Boxpixies-MVAXn.ttf");
+  font-display: block;
 }
 
