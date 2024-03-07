@@ -6,10 +6,10 @@ const { description1, description2, description3, description4 } = aboutMe
 const Carousel = () => {
   const descriptions = [description1, description2, description3, description4]
   return (
-    <CCarousel className="w-fit max-w-xl">
+    <CCarousel className="max-w-xl">
       {descriptions.map((description, index) => (
         <CCarouselItem key={index}>
-          <CCardText className="text-lg max-w-xl">
+          <CCardText className="text-lg max-w-xl min-h-64 md:min-h-40">
             {description}
           </CCardText>
         </CCarouselItem>
