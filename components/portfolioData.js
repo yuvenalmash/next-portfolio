@@ -66,12 +66,12 @@ const projectsList = [
 ];
 
 const techStackList = {
-  Languages: ["Python", "Ruby", "JavaScript", "HTML", "CSS"],
-  Frameworks: ["Django", "Ruby on Rails", "React", "Next.js", "Tailwind CSS"],
-  Databases: ["PostgreSQL", "MySQL", "SQLite", "MongoDB"],
-  Testing: ["Jest", "RSpec", "Capybara", "Selenium"],
-  Tools: ["Git", "GitHub", "Heroku", "Netlify", "Vercel", "Postman"],
-  // Professional: ["Project Management", "Agile Methodologies", "Teamwork", "Effective Communication"]
+  Languages: ["Python", "Ruby", "JavaScript"],
+  Frontend: ["HTML", "CSS", "React", "Redux", "Next.js", "Tailwind CSS"],
+  Backend: ["Django", "Flask", "Ruby on Rails", "Node.js", "Express.js"],
+  DBMS: ["PostgreSQL", "MySQL", "SQLite", "MongoDB"],
+  Testing: ["Jest", "Mocha", "RSpec", "Selenium"],
+  Tools: ["Git", "GitHub Actions", "Docker", "Kubernetes", "Jenkins", "Portainer"],
 }
 
 const socialLinks = {
