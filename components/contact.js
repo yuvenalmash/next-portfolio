@@ -6,21 +6,21 @@ import {
   AiOutlineMail,
   AiOutlineGithub,
   AiOutlineLinkedin,
-  AiOutlineTwitter,
   AiOutlineMedium,
 } from "react-icons/ai";
+import { RiTwitterXLine } from "react-icons/ri";
 
 const Contact = () => {
   const socialsMap = {
-    GitHub: AiOutlineGithub,
-    LinkedIn: AiOutlineLinkedin,
-    Twitter: AiOutlineTwitter,
-    Medium: AiOutlineMedium,
+    GitHub: <AiOutlineGithub className="text-3xl" />,
+    LinkedIn: <AiOutlineLinkedin className="text-3xl" />,
+    Twitter: <RiTwitterXLine className="text-2xl" />,
+    Medium: <AiOutlineMedium className="text-3xl" />,
   };
   return (
     <div
       id="contact"
-      className="py-20 flex flex-col justify-center items-center w-full"
+      className="flex flex-col justify-center items-center w-full pt-20"
     >
       <SectionTitle title="Contact" />
       <p className="text-xl text-center mb-16 max-w-2xl">
@@ -60,9 +60,7 @@ const Contact = () => {
                     rel="noopener noreferrer"
                     className="flex w-full  justify-center gap-2 transition-all duration-300 ease-in-out hover:scale-125 hover:text-cyan-600"
                   >
-                    {React.createElement(socialsMap[key], {
-                      className: "text-3xl",
-                    })}
+                    {socialsMap[key]}
                   </a>
                 </div>
               </div>
