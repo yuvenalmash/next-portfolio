@@ -28,7 +28,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="py-20 flex flex-col justify-center items-center"
+      className="flex flex-col justify-center items-center pt-20"
     >
       <SectionTitle title="Projects" />
       <div className="container mx-auto">
@@ -38,17 +38,19 @@ const Projects = () => {
               key={index}
               className="project shadow shadow-cyan-400 max-w-sm hover:shadow-md hover:shadow-cyan-400  transition-all duration-300 ease-in-out"
             >
-              <Image
-                src={project.image}
-                alt={project.name}
-                className="rounded-t-lg"
-                width={500}
-                height={300}
-              />
-              <div className="p-6">
+              <div className="relative rounded-t-lg h-36 w-full bg-yellow-500">
+                <Image
+                  src={project.image}
+                  alt={project.name}
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-t-lg"
+                />
+              </div>
+              <div className="px-4 py-3">
                 <h3 className="text-2xl font-bold mb-2">{project.name}</h3>
                 <p className=" mb-4 line-clamp-3">{project.description}</p>
-                <div className="flex justify-between mt-2 mb-4">
+                <div className="flex justify-between mt-2">
                   <div className="flex space-x-4">
                     <a
                       href={project.sourceCode}
