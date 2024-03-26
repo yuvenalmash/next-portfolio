@@ -6,6 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Yuvenal\'s Portfolio',
   description: 'Portfolio of Yuvenal Njoroge, a full stack developer based in Nairobi, Kenya.',
+  verification: { google: process.env.GOOGLE_VERIFICATION },
 }
 
 export default function RootLayout({ children }) {
