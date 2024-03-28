@@ -3,7 +3,7 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
 const ContactForm = () => {
-  const [state, handleSubmit] = useForm("myyqggwe");
+  const [state, handleSubmit] = useForm(process.env.FORM_SPREE_ID);
   if (state.succeeded) {
       return <p>Thanks for the message!</p>;
   }
@@ -14,13 +14,20 @@ const ContactForm = () => {
         type="text"
         name="name"
         placeholder="Your name"
+        autoComplete='name'
         className="form-field shadow shadow-cyan-400 p-2 bg-cyan-900 text-slate-200"
+      />
+      <ValidationError
+        prefix="Name"
+        field="name"
+        errors={state.errors}
       />
       <input
         id="email"
         type="email"
         name="email"
         placeholder="Your email"
+        autoComplete='email'
         className="form-field shadow shadow-cyan-400 p-2 bg-cyan-900 text-slate-200"
       />
       <ValidationError
