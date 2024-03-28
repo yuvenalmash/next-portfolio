@@ -38,13 +38,12 @@ const Projects = () => {
               key={index}
               className="project shadow shadow-cyan-400 max-w-sm hover:shadow-md hover:shadow-cyan-400  transition-all duration-300 ease-in-out"
             >
-              <div className="relative rounded-t-lg h-36 w-full bg-yellow-500">
+              <div className="relative rounded-t-lg h-36 w-full bg-black">
                 <Image
                   src={project.image}
                   alt={project.name}
-                  layout="fill"
-                  objectFit="cover"
-                  className="rounded-t-lg"
+                  fill
+                  sizes="100%"
                 />
               </div>
               <div className="px-4 py-3">
