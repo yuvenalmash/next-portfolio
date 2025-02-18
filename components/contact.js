@@ -14,8 +14,8 @@ const Contact = () => {
   const socialsMap = {
     GitHub: <AiOutlineGithub className="text-3xl" />,
     LinkedIn: <AiOutlineLinkedin className="text-3xl" />,
-    Twitter: <RiTwitterXLine className="text-2xl" />,
-    Medium: <AiOutlineMedium className="text-3xl" />,
+    // Twitter: <RiTwitterXLine className="text-2xl" />,
+    // Medium: <AiOutlineMedium className="text-3xl" />,
   };
   return (
     <div
@@ -28,14 +28,14 @@ const Contact = () => {
         or an idea you&apos;d like to discuss, please feel free to reach out to
         me:
       </p>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-10 w-full">
+      <div className="flex flex-col md:flex-row justify-center items-center w-fit gap-14">
         <ContactForm />
 
         {/* line divider */}
         <div className="hidden md:block w-1 h-64  bg-slate-400"></div>
         <div className="md:hidden h-1 w-3/4 bg-slate-400"></div>
 
-        <div className="container mx-auto w-fit">
+        <div className="container mx-auto w-full">
           <div className="flex flex-row flex-wrap justify-center items-center gap-3">
             <div className="contact-item shadow shadow-cyan-400 hover:shadow-md hover:shadow-cyan-400 transition-all duration-300 ease-in-out w-fit px-1">
               <div className="flex">

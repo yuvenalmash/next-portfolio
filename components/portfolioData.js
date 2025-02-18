@@ -70,16 +70,16 @@ const techStackList = {
   Frontend: ["HTML", "CSS", "React", "Redux", "Next.js", "Tailwind CSS"],
   Backend: ["Django", "Flask", "Ruby on Rails", "Node.js", "Express.js"],
   DBMS: ["PostgreSQL", "MySQL", "SQLite", "MongoDB"],
-  Testing: ["Jest", "Mocha", "RSpec", "Selenium"],
-  Tools: ["Git", "GitHub Actions", "Docker", "Kubernetes", "Jenkins", "Portainer"],
+  // Testing: ["Jest", "Mocha", "RSpec", "Selenium"],
+  // Tools: ["Git", "GitHub Actions", "Docker", "Kubernetes", "Jenkins", "Portainer"],
 }
 
 const socialLinks = {
   GitHub: "https://github.com/yuvenalmash",
   LinkedIn: "https://www.linkedin.com/in/yuvenal-njoroge/",
-  Twitter: "https://twitter.com/YuvenalNjoroge",
+  // Twitter: "https://twitter.com/YuvenalNjoroge",
   Email: "yuvenal.njoroge@gmail.com",
-  Medium: "https://medium.com/@yuvenal.njoroge",
+  // Medium: "https://medium.com/@yuvenal.njoroge",
   // Wellfound: "https://wellfound.com/u/yuvenal-njoroge"
 }
 
