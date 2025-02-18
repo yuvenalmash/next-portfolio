@@ -36,7 +36,7 @@ const Projects = () => {
           {projectsList.map((project, index) => (
             <div
               key={index}
-              className="project shadow shadow-cyan-400 max-w-sm hover:shadow-md hover:shadow-cyan-400  transition-all duration-300 ease-in-out"
+              className="project shadow shadow-cyan-400 max-w-xs hover:shadow-md hover:shadow-cyan-400  transition-all duration-300 ease-in-out"
             >
               <div className="relative rounded-t-lg h-36 w-full bg-black">
                 <Image

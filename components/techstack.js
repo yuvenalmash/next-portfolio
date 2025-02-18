@@ -81,17 +81,17 @@ const Techstack = () => {
         I&apos;m skilled at:
       </p>
       <div className="container mx-auto">
-        <div className="flex flex-wrap gap-10 justify-center items-center">
+        <div className="flex flex-wrap gap-8 justify-center">
           {Object.keys(techStackList).map((key, index) => (
             <div
               key={index}
-              className="tech-category shadow shadow-cyan-400 max-w-md hover:shadow-md hover:shadow-cyan-400  transition-all duration-300 ease-out"
+              className="tech-category shadow shadow-cyan-400 max-w-xs hover:shadow-md hover:shadow-cyan-400  transition-all duration-300 ease-out"
             >
               <div className="px-4 py-3">
                 <h3 className="text-2xl font-bold mb-4">{key}</h3>
-                <div className="flex flex-wrap gap-2 max-w-sm">
+                <div className="flex flex-col flex-wrap gap-2 max-w-xs">
                   {techStackList[key].map((tech, index) => (
-                    <div key={index} className="flex justify-center">
+                    <div key={index} className="flex">
                       <span className="techStackItem text-slate-200 bg-cyan-950 px-2 py-1 rounded hover:scale-110 hover:bg-cyan-900 transition-colors duration-300 ease-in-out flex items-center space-x-2 gap-2">
                         <span className="techStachIcon inline-block transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                           {techStackIcons[tech]
